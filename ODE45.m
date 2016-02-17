@@ -1,7 +1,7 @@
 % ODE45:
 %       Solves a differential using the Embbedded Runge-Kuta Method
 %
-% parameters: ( odefun, timespan, bound)
+% parameters: ( odefun, timespan, y0)
 %   odefun -> f(t,y), the right-hand-side of the first order explicit non-stiff 
 %             differential equation y'(t) = f(t, y(t)). If the function is vector-
 %             valued, f must return a column-vector.
